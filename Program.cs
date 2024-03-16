@@ -12,6 +12,13 @@ namespace modul4_1302223027
             Console.WriteLine("kode buah dari " + KodeBuah.Buah.Paprika + " adalah " + KodeBuah.getKodeBuah(KodeBuah.Buah.Paprika));
             Console.WriteLine("kode buah dari " + KodeBuah.Buah.Semangka + " adalah " + KodeBuah.getKodeBuah(KodeBuah.Buah.Semangka));
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            PosisiKarakterGame posisiState = new PosisiKarakterGame();
+            posisiState.runState();
+
         }
     }
 }
